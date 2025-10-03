@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'/>
+  <title>ChangeLog Since nassh-0.67</title>
+  <link rel='stylesheet' href='../third_party/chrome-bootstrap/chrome-bootstrap.css'></link>
+  <link rel='stylesheet' href='../css/chrome-bootstrap-darkmode.css'></link>
+
+  <style>
+    body {
+      padding: 1em;
+    }
+  </style>
+</head>
+<body class='chrome-bootstrap'>
+
+<h1>Online ChangeLogs</h1>
+<ul>
+  <li><a href='https://chromium.googlesource.com/apps/libapps/+log'>Full `git log`</a></li>
+  <li><a href='https://chromium.googlesource.com/apps/libapps/+/HEAD/libdot/docs/ChangeLog.md'>libdot ChangeLog.md</a></li>
+  <li><a href='https://chromium.googlesource.com/apps/libapps/+/HEAD/hterm/docs/ChangeLog.md'>hterm ChangeLog.md</a></li>
+  <li><a href='https://chromium.googlesource.com/apps/libapps/+/HEAD/nassh/docs/ChangeLog.md'>nassh ChangeLog.md</a></li>
+</ul>
+
+<h1>ChangeLog (since nassh-0.67)</h1>
+<div><a href="https://crrev.com/e86519c38860dd1715e7b4ba68653bf34638a93c">nassh: release 0.68</a></div>
+<div><a href="https://crrev.com/fcd44f44d392cad790f673062102902268251794">package.json: sync deps with top-level</a></div>
+<div><a href="https://crrev.com/71c0b59c8560ca46c05682be3d191a9b430f0d1a">python: update min version to 3.9</a></div>
+<div><a href="https://crrev.com/4f5d09f47cc0d3d57dccd4353a13c32191bfce45">ssh_client: libssh: download from our mirror</a></div>
+<div><a href="https://crrev.com/c40aff580ce1e8535f1e30ec9be1bac66b5aae9d">kokoro: add a light lint+test mode</a></div>
+<div><a href="https://crrev.com/7219a1f98d9f9bbf7781dc092d02c89353e0774e">pylint: update to 3.2 for Python 3.11</a></div>
+<div><a href="https://crrev.com/1a0bdbd29eaf4da0714fdde2b8f337e93338f664">libdot: black: update to v23</a></div>
+<div><a href="https://crrev.com/5dd640f0e5d57a1c46545ace8d00700229ab3720">node_modules: update some packages</a></div>
+<div><a href="https://crrev.com/1342d4f82555ebbfce662fd397ac2ab97c83f39a">libdot: node: rewrite for latest Chromium changes</a></div>
+<div><a href="https://crrev.com/fc72e887a2044d1f383490bd484377dbaba7d434">nassh: docs: update app/NaCl/WASM timeline</a></div>
+<div><a href="https://crrev.com/339757772319bbd6656445196a29c425d5fc85df">hterm: terminal: fix thinko in opacity setting when hiding</a></div>
+<div><a href="https://crrev.com/7457ada8eeb79a00a8b33324d3234f69966a69d6">node_modules: include npm ourselves</a></div>
+<div><a href="https://crrev.com/343daee847da4a1781fd3bc316bc76807b564c46">migrate goo.gl links to hterm.org</a></div>
+<div><a href="https://crrev.com/a75dddac3b7773ff542c9be9709678147494163f">wassh: fix showing popup on disconnection when using relay by returning error when writing to a closed relay socket</a></div>
+<div><a href="https://crrev.com/95a39645044fc83d1a8e47179cf77e5888e79333">terminal: use wasm when nacl is not available</a></div>
+<div><a href="https://crrev.com/14be2eebdc07a0ce88d4ea292efcfe792f03fa19">Add egress-domain parameter support. It is an optional parameter passed to /v4/connect requests, used to select external VIP in ssh proxy.</a></div>
+<div><a href="https://crrev.com/179cb4e4874f4b595dd1134e3d322d731a2ba258">nassh: connect: drop unused startup message argument</a></div>
+<div><a href="https://crrev.com/1c09ed734d7fc6b4d61a357175fab4de2fd5f723">ssh_client: openssl: respect custom CFLAGS too</a></div>
+<div><a href="https://crrev.com/99a60c72f940f79f9f8035082beb4030cc1e49dd">ssh_client: improve build-time support</a></div>
+<div><a href="https://crrev.com/00237e422e595d50f1c1af7a80bfd8804dc80447">ssh_client: wassh-libc-sup: implement very basic recvmsg</a></div>
+<div><a href="https://crrev.com/52f06bb2b9e0135c2e963a56e2a471037eb4847b">ssh_client: mandoc: unify command to avoid duplication a bit</a></div>
+<div><a href="https://crrev.com/5fa2130b314a9d2d5a28142705e67bd5801573c6">wassh: sockets: fix recvmsg address setup</a></div>
+<div><a href="https://crrev.com/9862ad07ec6d7173c07ca12d38ba4178ded6cf35">ssh_client: add ncurses 6.1</a></div>
+<div><a href="https://crrev.com/91594e5ca1c3acdf6d269d0ba191c26e0458db46">wassh: sockets: support MSG_DONTWAIT non-blocking reads</a></div>
+<div><a href="https://crrev.com/bf50d88d5bab9f1e688d253d00d9aecab2649b06">wassh: sockets: refactor base Socket class for UDP</a></div>
+<div><a href="https://crrev.com/f121c32243ef670675187e373c6ea86682671973">ssh_client: wassh-libc-sup: stub out rlimit APIs</a></div>
+<div><a href="https://crrev.com/40ccf126ce30c3a314aa2bd782d33d77f1e79041">ssh_client: wassh-libc-sup: stub out sigprocmask</a></div>
+<div><a href="https://crrev.com/0caf8e6b56cf06dcbceae6990296c5f5604db230">ssh_client: wassh-libc-sup: stub out C++ exceptions ABIs</a></div>
+<div><a href="https://crrev.com/d2176aa1e1e5ca8ef961e72a9b28ace994dbc490">wasi-js-bindings: fix monotonic clock resolution</a></div>
+<div><a href="https://crrev.com/25fb8baf25acce60ffad6361d83d80a25d311caf">wasi-js-bindings: poll: only deliver signals when wassh ABI is available</a></div>
+<div><a href="https://crrev.com/e97d603ab3e7858cfe05dd2723203d5a6fb9f4e6">wassh: sockets: cleanup orphaned UDP sockets too</a></div>
+<div><a href="https://crrev.com/b8698443113ac5f724799714766896f4179ddb47">ssh_client: wassh-libc-sup: stub out some pty APIs</a></div>
+<div><a href="https://crrev.com/d0d938ffa1684c203966c933bf55e00f86145844">ssh_client: wasi-sdk: update to 24.0 release</a></div>
+<div><a href="https://crrev.com/7d108e5f27f6e9001b7aca7e936aa96ae7401fea">ssh_client: binaryen: update to 118 release</a></div>
+<div><a href="https://crrev.com/32b525618ccc08ed860bc2397a0709ec64c7ca51">ssh_client: openssh: add missing openssl/bn.h include</a></div>
+<div><a href="https://crrev.com/048b3394735dd6a0f1b0efe454e71e43ed4778a9">ssh_client: mosh: add shortcut to get to connect dialog</a></div>
+<div><a href="https://crrev.com/b7008d2cdd2b8bc72a3585bc473b63b44d99b089">ssh_client: mosh: update to 1.4.0 release</a></div>
+<div><a href="https://crrev.com/fe5aa46048709adf633f2a44307b9d0f6ab7b799">nassh: update translations</a></div>
+<div><a href="https://crrev.com/c314ee395d810a7c68c05d3d59d143358a242fa3">ssh_client: mosh: update to libssh 0.9.8</a></div>
+<div><a href="https://crrev.com/7cd7bdc95885ead44f20d7e01f9dbc7a7d3483c7">ssh_client: bazel: drop old 0.17</a></div>
+<div><a href="https://crrev.com/dca7d81bdf7c8b50c5f2502e8586b9b6eec6ace2">ssh_client: mosh-chrome: update to newer version for newer bazel</a></div>
+<div><a href="https://crrev.com/3b56f4b0658badb6b775c11ebc2ce7582fbc91b9">ssh_client: bazel: import version 5</a></div>
+
+</body>
+</html>
